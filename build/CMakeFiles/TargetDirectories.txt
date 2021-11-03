@@ -1,0 +1,3 @@
+/Users/dianaudisteanu/Desktop/Vehicul/build/CMakeFiles/rebuild_cache.dir
+/Users/dianaudisteanu/Desktop/Vehicul/build/CMakeFiles/edit_cache.dir
+/Users/dianaudisteanu/Desktop/Vehicul/build/CMakeFiles/vehicul.dir
