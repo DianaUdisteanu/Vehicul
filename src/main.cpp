@@ -31,9 +31,9 @@ class Vehicul {
 
     public:
         Vehicul(){
-            marca = "Basic";
-            anFabricatie = 2021;
-            proprietar = new Proprietar("Dan", "Ilie", 30, "USA");
+            marca = "Neutru";
+            anFabricatie = 2000;
+            proprietar = new Proprietar("Dan", "Andrei", 45, "Iasi");
         }
 
         Vehicul(const string marcaV, unsigned int anFabricatieV, Proprietar *proprietarV):
