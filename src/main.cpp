@@ -11,19 +11,12 @@ class Proprietar {
         string adresa;
 
     public:
-        Proprietar(const string numeP, const string prenumeP, unsigned int varstaP, const string adresaP){
-            nume = numeP;
-            prenume = prenumeP;
-            varsta = varstaP;
-            adresa = adresaP;
-        } // constructor principal
-
-        Proprietar(const Proprietar &prop){
-            nume    = prop.nume;
-            prenume = prop.prenume;
-            varsta  = prop.varsta;
-            adresa  = prop.adresa;
-        } // copy constructor
+        Proprietar(const string numeP, const string prenumeP, unsigned int varstaP, const string adresaP):
+            nume(numeP),
+            prenume(prenumeP),
+            varsta(varstaP),
+            adresa(adresaP) {};
+        // constructor principal
 
         const string printNameOfTheOwner(){
             return nume + " " + prenume;
@@ -43,24 +36,20 @@ class Vehicul {
             proprietar = new Proprietar("Dan", "Ilie", 30, "USA");
         }
 
-        Vehicul(const string marcaV, unsigned int anFabricatieV, Proprietar *proprietarV){
-            marca = marcaV;
-            anFabricatie = anFabricatieV;
-            proprietar = proprietarV;
-        }  // constructorul principal
+        Vehicul(const string marcaV, unsigned int anFabricatieV, Proprietar *proprietarV):
+            marca(marcaV),
+            anFabricatie(anFabricatieV),
+            proprietar(proprietarV) {};
+         // constructorul principal
 
-        Vehicul& operator=(const Vehicul &veh){
-            this -> marca = veh.marca;
-            this -> anFabricatie = veh.anFabricatie;
-            this -> proprietar = veh.proprietar;
-            return *this;
-        }; // copy assignment operator
+        Vehicul& operator=(const Vehicul &veh);
+         // copy assignment operator
 
-        Vehicul(const Vehicul &veh){
-            marca = veh.marca;
-            anFabricatie = veh.anFabricatie;
-            proprietar = veh.proprietar;
-        } // copy constructor
+        Vehicul(const Vehicul &veh):
+            marca(veh.marca),
+            anFabricatie(veh.anFabricatie),
+            proprietar(veh.proprietar) {};
+        // copy constructor
 
 
         void print(){
@@ -71,6 +60,13 @@ class Vehicul {
             return marca;
         }
 }; 
+
+Vehicul& Vehicul::operator=(const Vehicul &veh){
+    marca = veh.marca;
+    anFabricatie = veh.anFabricatie;
+    proprietar = veh.proprietar;
+    return *this;
+}
 
 class Terestru: public Vehicul {
     public:
@@ -107,10 +103,9 @@ class StareVehicul {
         StareVehicul& operator=(const StareVehicul&);
 
     public:
-        StareVehicul(Vehicul *veh, bool stareV){
-            vehicul = veh;
-            stare = stareV;
-        }
+        StareVehicul(Vehicul *veh, bool stareV):
+            vehicul(veh),
+            stare(stareV){};
 
         StareVehicul();
 
@@ -127,10 +122,10 @@ class StareVehicul {
 int main(){
     Proprietar proprietar1 = Proprietar("Udisteanu", "Diana", 21, "Sacalaz");
     Proprietar proprietar2 = Proprietar("Sofran", "Sebastian", 22, "Timisoara");
+    Proprietar proprietar3 = Proprietar("Popescu", "Alin", 30, "Timisoara"); 
 
-    Proprietar proprietar3 = Proprietar(proprietar2); // se apeleaza copy constructor
-    //cout<<proprietar3.printNameOfTheOwner();
-    //cout<<std::endl;
+    cout<<proprietar1.printNameOfTheOwner();
+    cout<<std::endl;
 
     Vehicul vehicul1 = Vehicul("VW", 2009, &proprietar1); // se ia adresa argumentului cu &
     vehicul1.print();
