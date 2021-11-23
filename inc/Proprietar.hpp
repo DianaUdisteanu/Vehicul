@@ -12,7 +12,11 @@ class Proprietar {
         std::string adresa;
     
     public:
+        Proprietar();
         Proprietar(const std::string, const std::string, unsigned int, const std::string);
+        Proprietar& operator=(const Proprietar &);
+        // copy assignment operator
+
         const std::string printNameOfTheOwner();
 };
 

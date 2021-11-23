@@ -14,7 +14,10 @@ int main(){
     proprietar::Proprietar proprietar2("Sofran", "Sebastian", 22, "Timisoara");
     proprietar::Proprietar proprietar3("Popescu", "Alin", 30, "Timisoara"); 
 
-    cout<<proprietar1.printNameOfTheOwner();
+    //apel copy assignment operator
+    proprietar::Proprietar proprietar4;
+    proprietar4 = proprietar2;
+    cout<<proprietar4.printNameOfTheOwner();
     cout<<std::endl;
 
     vehicul::Vehicul vehicul1("VW", 2009, &proprietar1); // se ia adresa argumentului cu &
