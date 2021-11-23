@@ -129,6 +129,139 @@ vehicul/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vehicul.dir/build.make CMakeFiles/vehicul.dir/build
 .PHONY : vehicul/fast
 
+#=============================================================================
+# Target rules for targets named lib
+
+# Build rule for target.
+lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib
+.PHONY : lib
+
+# fast build rule for target.
+lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
+.PHONY : lib/fast
+
+src/Aerian.o: src/Aerian.cpp.o
+.PHONY : src/Aerian.o
+
+# target to build an object file
+src/Aerian.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Aerian.cpp.o
+.PHONY : src/Aerian.cpp.o
+
+src/Aerian.i: src/Aerian.cpp.i
+.PHONY : src/Aerian.i
+
+# target to preprocess a source file
+src/Aerian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Aerian.cpp.i
+.PHONY : src/Aerian.cpp.i
+
+src/Aerian.s: src/Aerian.cpp.s
+.PHONY : src/Aerian.s
+
+# target to generate assembly for a file
+src/Aerian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Aerian.cpp.s
+.PHONY : src/Aerian.cpp.s
+
+src/Proprietar.o: src/Proprietar.cpp.o
+.PHONY : src/Proprietar.o
+
+# target to build an object file
+src/Proprietar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Proprietar.cpp.o
+.PHONY : src/Proprietar.cpp.o
+
+src/Proprietar.i: src/Proprietar.cpp.i
+.PHONY : src/Proprietar.i
+
+# target to preprocess a source file
+src/Proprietar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Proprietar.cpp.i
+.PHONY : src/Proprietar.cpp.i
+
+src/Proprietar.s: src/Proprietar.cpp.s
+.PHONY : src/Proprietar.s
+
+# target to generate assembly for a file
+src/Proprietar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Proprietar.cpp.s
+.PHONY : src/Proprietar.cpp.s
+
+src/StareVehicul.o: src/StareVehicul.cpp.o
+.PHONY : src/StareVehicul.o
+
+# target to build an object file
+src/StareVehicul.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/StareVehicul.cpp.o
+.PHONY : src/StareVehicul.cpp.o
+
+src/StareVehicul.i: src/StareVehicul.cpp.i
+.PHONY : src/StareVehicul.i
+
+# target to preprocess a source file
+src/StareVehicul.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/StareVehicul.cpp.i
+.PHONY : src/StareVehicul.cpp.i
+
+src/StareVehicul.s: src/StareVehicul.cpp.s
+.PHONY : src/StareVehicul.s
+
+# target to generate assembly for a file
+src/StareVehicul.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/StareVehicul.cpp.s
+.PHONY : src/StareVehicul.cpp.s
+
+src/Terestru.o: src/Terestru.cpp.o
+.PHONY : src/Terestru.o
+
+# target to build an object file
+src/Terestru.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Terestru.cpp.o
+.PHONY : src/Terestru.cpp.o
+
+src/Terestru.i: src/Terestru.cpp.i
+.PHONY : src/Terestru.i
+
+# target to preprocess a source file
+src/Terestru.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Terestru.cpp.i
+.PHONY : src/Terestru.cpp.i
+
+src/Terestru.s: src/Terestru.cpp.s
+.PHONY : src/Terestru.s
+
+# target to generate assembly for a file
+src/Terestru.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Terestru.cpp.s
+.PHONY : src/Terestru.cpp.s
+
+src/Vehicul.o: src/Vehicul.cpp.o
+.PHONY : src/Vehicul.o
+
+# target to build an object file
+src/Vehicul.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Vehicul.cpp.o
+.PHONY : src/Vehicul.cpp.o
+
+src/Vehicul.i: src/Vehicul.cpp.i
+.PHONY : src/Vehicul.i
+
+# target to preprocess a source file
+src/Vehicul.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Vehicul.cpp.i
+.PHONY : src/Vehicul.cpp.i
+
+src/Vehicul.s: src/Vehicul.cpp.s
+.PHONY : src/Vehicul.s
+
+# target to generate assembly for a file
+src/Vehicul.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Vehicul.cpp.s
+.PHONY : src/Vehicul.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -161,7 +294,23 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... lib"
 	@echo "... vehicul"
+	@echo "... src/Aerian.o"
+	@echo "... src/Aerian.i"
+	@echo "... src/Aerian.s"
+	@echo "... src/Proprietar.o"
+	@echo "... src/Proprietar.i"
+	@echo "... src/Proprietar.s"
+	@echo "... src/StareVehicul.o"
+	@echo "... src/StareVehicul.i"
+	@echo "... src/StareVehicul.s"
+	@echo "... src/Terestru.o"
+	@echo "... src/Terestru.i"
+	@echo "... src/Terestru.s"
+	@echo "... src/Vehicul.o"
+	@echo "... src/Vehicul.i"
+	@echo "... src/Vehicul.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

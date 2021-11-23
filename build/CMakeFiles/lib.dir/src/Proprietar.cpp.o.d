@@ -1,5 +1,5 @@
-CMakeFiles/vehicul.dir/src/main.cpp.o: \
-  /Users/dianaudisteanu/Desktop/Vehicul/src/main.cpp \
+CMakeFiles/lib.dir/src/Proprietar.cpp.o: \
+  /Users/dianaudisteanu/Desktop/Vehicul/src/Proprietar.cpp \
   /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/Proprietar.hpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__config \
@@ -138,8 +138,6 @@ CMakeFiles/vehicul.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
-  /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/Vehicul.hpp \
-  /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/./Proprietar.hpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__locale \
@@ -227,8 +225,4 @@ CMakeFiles/vehicul.dir/src/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/bitset \
-  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference \
-  /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/Terestru.hpp \
-  /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/./Vehicul.hpp \
-  /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/Aerian.hpp \
-  /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/StareVehicul.hpp
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference

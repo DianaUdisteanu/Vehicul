@@ -92,6 +92,7 @@ vehicul_EXTERNAL_OBJECTS =
 
 vehicul: CMakeFiles/vehicul.dir/src/main.cpp.o
 vehicul: CMakeFiles/vehicul.dir/build.make
+vehicul: liblib.a
 vehicul: CMakeFiles/vehicul.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dianaudisteanu/Desktop/Vehicul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable vehicul"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vehicul.dir/link.txt --verbose=$(VERBOSE)
