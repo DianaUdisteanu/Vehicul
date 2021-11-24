@@ -29,13 +29,13 @@ int main(){
     vehicul2.print();
     cout<<std::endl;
     vehicul2 = vehicul1; // se apeleaza copy assignment operator
-    std::cout<<"Vehiculul dupa copy assignment operator:"<<std::endl;
+    std::cout<<"Vehiculul dupa copy assignment operator fara self-assignment:"<<std::endl;
     vehicul2.print();
     cout<<std::endl;
 
-    terestru::Terestru vehiculTer("BMW", 2018, &proprietar2);
-    vehiculTer.print();
-    vehiculTer.printMyType();
+    vehicul1 = vehicul1;
+    std::cout<<"Vehiculul dupa copy assignment operator cu self-assignment:"<<std::endl;
+    vehicul1.print();
     cout<<std::endl;
 
     aerian::Aerian vehiculAer("Tarom", 2003, &proprietar3, 300);
@@ -43,12 +43,29 @@ int main(){
     vehiculAer.printViteza();
     cout<<std::endl;
 
+    std::cout<<"Vehiculul aerian dupa copy constructor"<<std::endl;
     aerian::Aerian vehiculAerCopy(vehiculAer);
+    vehiculAerCopy.print();
     vehiculAerCopy.printViteza();
     cout<<std::endl;
 
-    stare::StareVehicul s1(&vehiculTer, false);
+    aerian::Aerian vehiculAerCopy2;
+    std::cout<<"Vehiculul aerian dupa apelarea constructorului gol care mosteneste constructorul gol de la vehicul"<<std::endl;
+    vehiculAerCopy2.print();
+    cout<<std::endl;
+    std::cout<<"Vehiculul aerian dupa copy assignment opperator"<<std::endl;
+    vehiculAerCopy2 = vehiculAer;
+    vehiculAerCopy2.print();
+    vehiculAerCopy2.printViteza();
+    cout<<std::endl;
+
+    /*terestru::Terestru vehiculTer("BMW", 2018, &proprietar2);
+    vehiculTer.print();
+    vehiculTer.printMyType();
+    cout<<std::endl;*/
+
+    /*stare::StareVehicul s1(&vehiculTer, false);
     s1.prezintaStare();
     cout<<std::endl;
-    //StareVehicul s2 = s1; - eroare (nu putem copia starea vehiculului)
+    //StareVehicul s2 = s1; - eroare (nu putem copia starea vehiculului)*/
 }

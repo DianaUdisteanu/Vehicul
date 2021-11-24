@@ -32,9 +32,11 @@ namespace vehicul{
     }
 
     Vehicul& Vehicul::operator=(const Vehicul &veh){
+        if(this == &veh) return *this;    // pentru a preveni ca *this si veh sa fie acelasi obiect
         marca = veh.marca;
         anFabricatie = veh.anFabricatie;
-        proprietar = veh.proprietar;
+        delete proprietar;
+        proprietar = new proprietar::Proprietar(*veh.proprietar);
         return *this;
     }
 }

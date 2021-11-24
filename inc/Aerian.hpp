@@ -13,9 +13,13 @@ namespace aerian{
         unsigned int viteza;
 
     public:
+        Aerian();
+        
         Aerian(const std::string, unsigned int, proprietar::Proprietar *, unsigned int);
 
         Aerian(const Aerian&);
+
+        Aerian& operator=(const Aerian &);
 
         void printViteza();
     };
