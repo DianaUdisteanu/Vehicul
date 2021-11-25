@@ -35,8 +35,9 @@ namespace vehicul{
         if(this == &veh) return *this;    // pentru a preveni ca *this si veh sa fie acelasi obiect
         marca = veh.marca;
         anFabricatie = veh.anFabricatie;
+        proprietar::Proprietar *prop1 = proprietar;  // tinem minte proprietarul original, safe si din punct de vedere al exceptiilor
+        proprietar = new proprietar::Proprietar(*veh.proprietar);  // pointam proprietarul catre o copie a proprietarului vechicului veh
         delete proprietar;
-        proprietar = new proprietar::Proprietar(*veh.proprietar);
         return *this;
     }
 }
