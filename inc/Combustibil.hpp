@@ -9,9 +9,9 @@ namespace combustibil{
     class Combustibil {
 
         public:
-        virtual std::string printCombustibil() = 0; // abstract class
+        virtual std::string printCombustibil(){}; // abstract class
+        static Combustibil* incarcaCombustibil(char);
     }; 
-    Combustibil* incarcaCombustibil(char);
 }
 
 #endif // COMBUSTIBIL_HPP

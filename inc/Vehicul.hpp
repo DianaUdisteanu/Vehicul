@@ -29,7 +29,7 @@ namespace vehicul{
 
         const std::string returnMarca();
 
-        virtual void alimenteazaVehicul(); // abstract class
+        virtual void alimenteazaVehicul(){}; // abstract class
     }; 
 
 }

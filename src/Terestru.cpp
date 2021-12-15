@@ -2,7 +2,6 @@
 #include "../inc/Vehicul.hpp"
 #include "../inc/Terestru.hpp"
 #include "../inc/Combustibil.hpp"
-#include "./Combustibil.cpp"
 
 #include<string>
 #include<iostream>
@@ -15,8 +14,8 @@ namespace terestru{
             std::cout<<"Sunt un vehicul terestru!"<<std::endl;
     }
 
-    void alimenteazaVehicul(){
-        std::shared_ptr<combustibil::Combustibil> com (combustibil::incarcaCombustibil('c')); //com pointeaza catre obiectul returnat de incarcaCombustibil
-        std::cout<<": Am alimentat"<<marca<<" cu "<<com->printCombustibil();
+    void Terestru::alimenteazaVehicul(){
+        std::shared_ptr<combustibil::Combustibil> com (combustibil::Combustibil::incarcaCombustibil('c')); //com pointeaza catre obiectul returnat de incarcaCombustibil
+        std::cout<<"Am alimentat cu "<<com->printCombustibil();
     }
 }

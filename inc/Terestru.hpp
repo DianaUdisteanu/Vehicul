@@ -13,6 +13,7 @@ namespace terestru{
     public:
         Terestru(const std::string, unsigned int, proprietar::Proprietar *);
         void printMyType();
+        void alimenteazaVehicul();
     };
 
 }

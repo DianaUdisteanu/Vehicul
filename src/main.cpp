@@ -46,8 +46,8 @@ int main(){
     aerian::Aerian vehiculAer("Tarom", 2003, &proprietar3, 300);
     vehiculAer.print();
     vehiculAer.printViteza();
+    vehiculAer.alimenteazaVehicul();
     cout<<std::endl;
-    //vehiculAer.alimenteazaVehicul();
 
     /*std::cout<<"Vehiculul aerian dupa copy constructor"<<std::endl;
     aerian::Aerian vehiculAerCopy(vehiculAer);
@@ -69,8 +69,8 @@ int main(){
     terestru::Terestru vehiculTer("BMW", 2018, &proprietar2);
     vehiculTer.print();
     vehiculTer.printMyType();
+    vehiculTer.alimenteazaVehicul();
     cout<<std::endl;
-    //vehiculTer.alimenteazaVehicul();
 
     /*stare::StareVehicul s1(&vehiculTer, false);
     s1.prezintaStare();

@@ -9,6 +9,7 @@ namespace carburant{
 
     class Carburant: public combustibil::Combustibil {
     public:
+        std::string printCombustibil();
     };
 
 }

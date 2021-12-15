@@ -6,6 +6,6 @@
 namespace carburant{
 
     std::string Carburant::printCombustibil(){
-        return "Carburant";
+        return "carburant";
     }
 }

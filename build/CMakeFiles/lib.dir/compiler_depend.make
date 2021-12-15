@@ -233,10 +233,7 @@ CMakeFiles/lib.dir/src/Aerian.cpp.o: ../src/Aerian.cpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__bit_reference \
   ../inc/Aerian.hpp \
   ../inc/Vehicul.hpp \
-  ../inc/Combustibil.hpp \
-  ../src/Combustibil.cpp \
-  ../inc/Kerosen.hpp \
-  ../inc/Carburant.hpp
+  ../inc/Combustibil.hpp
 
 CMakeFiles/lib.dir/src/Carburant.cpp.o: ../src/Carburant.cpp \
   ../inc/Combustibil.hpp \
@@ -1387,7 +1384,6 @@ CMakeFiles/lib.dir/src/StareVehicul.cpp.o: ../src/StareVehicul.cpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__bit_reference \
-  ../inc/MyFactory.hpp \
   ../inc/Vehicul.hpp
 
 CMakeFiles/lib.dir/src/Terestru.cpp.o: ../src/Terestru.cpp \
@@ -1620,9 +1616,9 @@ CMakeFiles/lib.dir/src/Terestru.cpp.o: ../src/Terestru.cpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__bit_reference \
-  ../inc/MyFactory.hpp \
   ../inc/Terestru.hpp \
-  ../inc/Vehicul.hpp
+  ../inc/Vehicul.hpp \
+  ../inc/Combustibil.hpp
 
 CMakeFiles/lib.dir/src/Vehicul.cpp.o: ../src/Vehicul.cpp \
   ../inc/Proprietar.hpp \
@@ -1865,11 +1861,11 @@ CMakeFiles/lib.dir/src/Vehicul.cpp.o: ../src/Vehicul.cpp \
 
 ../src/Proprietar.cpp:
 
-../src/Carburant.cpp:
+../src/Combustibil.cpp:
 
 ../inc/Carburant.hpp:
 
-../src/Combustibil.cpp:
+../src/Carburant.cpp:
 
 ../inc/Aerian.hpp:
 
@@ -2252,8 +2248,6 @@ CMakeFiles/lib.dir/src/Vehicul.cpp.o: ../src/Vehicul.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctype_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__mutex_base:
-
-../inc/MyFactory.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_int64_t.h:
 

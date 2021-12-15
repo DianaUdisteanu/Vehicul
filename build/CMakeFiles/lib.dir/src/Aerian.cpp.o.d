@@ -231,7 +231,4 @@ CMakeFiles/lib.dir/src/Aerian.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/__bit_reference \
   /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/Aerian.hpp \
   /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/./Vehicul.hpp \
-  /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/Combustibil.hpp \
-  /Users/dianaudisteanu/Desktop/Vehicul/src/./Combustibil.cpp \
-  /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/Kerosen.hpp \
-  /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/Carburant.hpp
+  /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/Combustibil.hpp

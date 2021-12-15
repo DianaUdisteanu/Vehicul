@@ -23,6 +23,7 @@ namespace aerian{
         Aerian& operator=(const Aerian &);
 
         void printViteza();
+        void alimenteazaVehicul();
     };
 }
 

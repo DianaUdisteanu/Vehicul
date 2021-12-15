@@ -6,6 +6,6 @@
 namespace kerosen{
 
     std::string Kerosen::printCombustibil(){
-        return "Kerosen";
+        return "kerosen";
     }
 }

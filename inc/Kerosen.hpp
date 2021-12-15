@@ -8,6 +8,7 @@ namespace kerosen{
 
     class Kerosen: public combustibil::Combustibil {
     public:
+        std::string printCombustibil();
     };
 
 }
