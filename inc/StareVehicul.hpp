@@ -8,7 +8,6 @@ namespace stare {
 
 class StareVehicul {
     private:
-        bool stare;
         vehicul::Vehicul *vehicul;
 
         StareVehicul(const StareVehicul&);
@@ -16,9 +15,11 @@ class StareVehicul {
         StareVehicul& operator=(const StareVehicul&);
     
     public:
-        StareVehicul(vehicul::Vehicul *, bool);
+        explicit StareVehicul(vehicul::Vehicul *);
         StareVehicul();
-        void prezintaStare();
+        ~StareVehicul();
+        void lockPentruReperatii(vehicul::Vehicul *);
+        void unlockPentruUtilizare(vehicul::Vehicul *);
 };
 
 }

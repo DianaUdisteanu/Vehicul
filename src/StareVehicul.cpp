@@ -3,18 +3,22 @@
 #include<string>
 
 namespace stare{
-    StareVehicul::StareVehicul(vehicul::Vehicul *veh, bool stareV):
-            vehicul(veh),
-            stare(stareV){};
+    StareVehicul::StareVehicul(vehicul::Vehicul *veh):
+            vehicul(veh){
+                lockPentruReperatii(veh);   // se obtine resursa si de blocheaza
+            };
+    StareVehicul::~StareVehicul(){
+        unlockPentruUtilizare(vehicul); // se elibereaza resursa
+    }
 
     StareVehicul::StareVehicul(){}
 
-    void StareVehicul::prezintaStare(){
-            if(stare == true) {
-                std::cout<<"Vehiculul "<<vehicul->returnMarca()<<" exte disponibil pentru deplasare";
-            }
-            else {
-                std::cout<<"Vehiculul "<<vehicul->returnMarca()<<" necesita reparatii";
-            }
-        }
+    void StareVehicul::lockPentruReperatii(vehicul::Vehicul *veh){
+        std::cout<<"Vehiculul "<<vehicul->returnMarca()<<" necesita reparatii ";
+    }
+    
+    void StareVehicul::unlockPentruUtilizare(vehicul::Vehicul *veh){
+        std::cout<<"Vehiculul "<<vehicul->returnMarca()<<" se poate deplasa"<<std::endl;
+    }
+
 }

@@ -49,6 +49,10 @@ int main(){
     vehiculAer.alimenteazaVehicul();
     cout<<std::endl;
 
+    stare::StareVehicul s1(&vehiculAer);
+    cout<<std::endl;
+    cout<<std::endl;
+
     /*std::cout<<"Vehiculul aerian dupa copy constructor"<<std::endl;
     aerian::Aerian vehiculAerCopy(vehiculAer);
     vehiculAerCopy.print();
@@ -72,8 +76,7 @@ int main(){
     vehiculTer.alimenteazaVehicul();
     cout<<std::endl;
 
-    /*stare::StareVehicul s1(&vehiculTer, false);
-    s1.prezintaStare();
+    stare::StareVehicul s2(&vehiculTer);
     cout<<std::endl;
-    //StareVehicul s2 = s1; - eroare (nu putem copia starea vehiculului)*/
+    cout<<std::endl;
 }
