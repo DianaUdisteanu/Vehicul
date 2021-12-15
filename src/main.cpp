@@ -3,6 +3,9 @@
 #include "../inc/Terestru.hpp"
 #include "../inc/Aerian.hpp"
 #include "../inc/StareVehicul.hpp"
+#include "../inc/Combustibil.hpp"
+#include "../inc/Kerosen.hpp"
+#include "../inc/Carburant.hpp"
 
 #include<iostream>
 #include<cstring>
@@ -17,10 +20,10 @@ int main(){
     //apel copy assignment operator
     proprietar::Proprietar proprietar4;
     proprietar4 = proprietar2;
-    cout<<proprietar4.printNameOfTheOwner();
-    cout<<std::endl;
+    //cout<<proprietar4.printNameOfTheOwner();
+    //cout<<std::endl;
 
-    vehicul::Vehicul vehicul1("VW", 2009, &proprietar1); // se ia adresa argumentului cu &
+    /*vehicul::Vehicul vehicul1("VW", 2009, &proprietar1); // se ia adresa argumentului cu &
     vehicul1.print();
     cout<<std::endl;
 
@@ -33,17 +36,20 @@ int main(){
     vehicul2.print();
     cout<<std::endl;
 
+
     vehicul1 = vehicul1;
     std::cout<<"Vehiculul dupa copy assignment operator cu self-assignment:"<<std::endl;
     vehicul1.print();
     cout<<std::endl;
+    */
 
     aerian::Aerian vehiculAer("Tarom", 2003, &proprietar3, 300);
     vehiculAer.print();
     vehiculAer.printViteza();
     cout<<std::endl;
+    //vehiculAer.alimenteazaVehicul();
 
-    std::cout<<"Vehiculul aerian dupa copy constructor"<<std::endl;
+    /*std::cout<<"Vehiculul aerian dupa copy constructor"<<std::endl;
     aerian::Aerian vehiculAerCopy(vehiculAer);
     vehiculAerCopy.print();
     vehiculAerCopy.printViteza();
@@ -58,11 +64,13 @@ int main(){
     vehiculAerCopy2.print();
     vehiculAerCopy2.printViteza();
     cout<<std::endl;
+    */
 
-    /*terestru::Terestru vehiculTer("BMW", 2018, &proprietar2);
+    terestru::Terestru vehiculTer("BMW", 2018, &proprietar2);
     vehiculTer.print();
     vehiculTer.printMyType();
-    cout<<std::endl;*/
+    cout<<std::endl;
+    //vehiculTer.alimenteazaVehicul();
 
     /*stare::StareVehicul s1(&vehiculTer, false);
     s1.prezintaStare();

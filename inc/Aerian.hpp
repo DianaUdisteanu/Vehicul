@@ -4,6 +4,7 @@
 #include<string>
 #include "./Proprietar.hpp"
 #include "./Vehicul.hpp"
+#include "./Combustibil.hpp"
 
 namespace aerian{
 

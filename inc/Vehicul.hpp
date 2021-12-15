@@ -2,6 +2,8 @@
 #define VEHICUL_HPP
 
 #include "./Proprietar.hpp"
+#include "./Combustibil.hpp"
+
 #include<string>
 #include<iostream>
 
@@ -26,6 +28,8 @@ namespace vehicul{
         void print();
 
         const std::string returnMarca();
+
+        virtual void alimenteazaVehicul(); // abstract class
     }; 
 
 }

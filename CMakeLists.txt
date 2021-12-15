@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 
-set(my_files src/Proprietar.cpp src/Vehicul.cpp src/Aerian.cpp src/Terestru.cpp src/StareVehicul.cpp inc/Proprietar.hpp inc/Vehicul.hpp inc/Aerian.hpp inc/Terestru.hpp inc/StareVehicul.hpp)
+set(my_files src/Proprietar.cpp src/Vehicul.cpp src/Aerian.cpp src/Terestru.cpp src/StareVehicul.cpp src/Combustibil.cpp src/Carburant.cpp src/Kerosen.cpp inc/Proprietar.hpp inc/Vehicul.hpp inc/Aerian.hpp inc/Terestru.hpp inc/StareVehicul.hpp inc/Combustibil.hpp inc/Carburant.hpp inc/Kerosen.hpp)
 
 
 add_library(lib STATIC ${my_files})

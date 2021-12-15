@@ -3,6 +3,8 @@
 
 #include "./Vehicul.hpp"
 #include "./Proprietar.hpp"
+#include "./Combustibil.hpp"
+
 #include <string>
 
 namespace terestru{

@@ -1,5 +1,7 @@
 #include "../inc/Proprietar.hpp"
 #include "../inc/Vehicul.hpp"
+#include "../inc/Combustibil.hpp"
+
 #include<string>
 #include<iostream>
 

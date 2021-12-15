@@ -166,6 +166,78 @@ src/Aerian.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Aerian.cpp.s
 .PHONY : src/Aerian.cpp.s
 
+src/Carburant.o: src/Carburant.cpp.o
+.PHONY : src/Carburant.o
+
+# target to build an object file
+src/Carburant.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Carburant.cpp.o
+.PHONY : src/Carburant.cpp.o
+
+src/Carburant.i: src/Carburant.cpp.i
+.PHONY : src/Carburant.i
+
+# target to preprocess a source file
+src/Carburant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Carburant.cpp.i
+.PHONY : src/Carburant.cpp.i
+
+src/Carburant.s: src/Carburant.cpp.s
+.PHONY : src/Carburant.s
+
+# target to generate assembly for a file
+src/Carburant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Carburant.cpp.s
+.PHONY : src/Carburant.cpp.s
+
+src/Combustibil.o: src/Combustibil.cpp.o
+.PHONY : src/Combustibil.o
+
+# target to build an object file
+src/Combustibil.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Combustibil.cpp.o
+.PHONY : src/Combustibil.cpp.o
+
+src/Combustibil.i: src/Combustibil.cpp.i
+.PHONY : src/Combustibil.i
+
+# target to preprocess a source file
+src/Combustibil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Combustibil.cpp.i
+.PHONY : src/Combustibil.cpp.i
+
+src/Combustibil.s: src/Combustibil.cpp.s
+.PHONY : src/Combustibil.s
+
+# target to generate assembly for a file
+src/Combustibil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Combustibil.cpp.s
+.PHONY : src/Combustibil.cpp.s
+
+src/Kerosen.o: src/Kerosen.cpp.o
+.PHONY : src/Kerosen.o
+
+# target to build an object file
+src/Kerosen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Kerosen.cpp.o
+.PHONY : src/Kerosen.cpp.o
+
+src/Kerosen.i: src/Kerosen.cpp.i
+.PHONY : src/Kerosen.i
+
+# target to preprocess a source file
+src/Kerosen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Kerosen.cpp.i
+.PHONY : src/Kerosen.cpp.i
+
+src/Kerosen.s: src/Kerosen.cpp.s
+.PHONY : src/Kerosen.s
+
+# target to generate assembly for a file
+src/Kerosen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Kerosen.cpp.s
+.PHONY : src/Kerosen.cpp.s
+
 src/Proprietar.o: src/Proprietar.cpp.o
 .PHONY : src/Proprietar.o
 
@@ -299,6 +371,15 @@ help:
 	@echo "... src/Aerian.o"
 	@echo "... src/Aerian.i"
 	@echo "... src/Aerian.s"
+	@echo "... src/Carburant.o"
+	@echo "... src/Carburant.i"
+	@echo "... src/Carburant.s"
+	@echo "... src/Combustibil.o"
+	@echo "... src/Combustibil.i"
+	@echo "... src/Combustibil.s"
+	@echo "... src/Kerosen.o"
+	@echo "... src/Kerosen.i"
+	@echo "... src/Kerosen.s"
 	@echo "... src/Proprietar.o"
 	@echo "... src/Proprietar.i"
 	@echo "... src/Proprietar.s"

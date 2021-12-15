@@ -1,8 +1,12 @@
 #include "../inc/Proprietar.hpp"
 #include "../inc/Vehicul.hpp"
 #include "../inc/Aerian.hpp"
+#include "../inc/Combustibil.hpp"
+#include "./Combustibil.cpp"
+
 #include<string>
 #include<iostream>
+#include<memory>
 
 namespace aerian{
     Aerian::Aerian() : Vehicul(){}
@@ -22,5 +26,10 @@ namespace aerian{
 
     void Aerian::printViteza(){
             std::cout<<"Sunt un vehicul aerian si viteza mea este: "<<viteza<<std::endl;
+    }
+
+    void alimenteazaVehicul(){
+        std::shared_ptr<combustibil::Combustibil> com (combustibil::Combustibil::incarcaCombustibil('k')); //com pointeaza catre obiectul returnat de incarcaCombustibil
+        std::cout<<": Am alimentat"<<marca<<" cu "<<com->printCombustibil();
     }
 }

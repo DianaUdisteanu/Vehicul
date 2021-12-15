@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lib.dir/src/Aerian.cpp.o"
   "CMakeFiles/lib.dir/src/Aerian.cpp.o.d"
+  "CMakeFiles/lib.dir/src/Carburant.cpp.o"
+  "CMakeFiles/lib.dir/src/Carburant.cpp.o.d"
+  "CMakeFiles/lib.dir/src/Combustibil.cpp.o"
+  "CMakeFiles/lib.dir/src/Combustibil.cpp.o.d"
+  "CMakeFiles/lib.dir/src/Kerosen.cpp.o"
+  "CMakeFiles/lib.dir/src/Kerosen.cpp.o.d"
   "CMakeFiles/lib.dir/src/Proprietar.cpp.o"
   "CMakeFiles/lib.dir/src/Proprietar.cpp.o.d"
   "CMakeFiles/lib.dir/src/StareVehicul.cpp.o"
