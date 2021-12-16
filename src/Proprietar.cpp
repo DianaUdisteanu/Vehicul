@@ -1,4 +1,5 @@
 #include "../inc/Proprietar.hpp"
+#include "../inc/DatePersonale.hpp"
 #include<string>
 #include<iostream>
 
@@ -12,16 +13,12 @@ namespace proprietar{
             varsta(varstaP),
             adresa(adresaP) {};
 
-     Proprietar& Proprietar::operator=(const Proprietar &prop){
-        if(this == &prop) return *this; // pentru a se evita self-assignment; fara identity test, *this si prop pot fi acelasi obiect
-        nume = prop.nume;
-        prenume = prop.prenume;
-        varsta = prop.varsta;
-        adresa = prop.adresa;
-        return *this;
-    }
-
     const std::string Proprietar::printNameOfTheOwner(){
             return nume + " " + prenume;
     }
+
+    void Proprietar::adaugaDetalii(datepersonale::DatePersonale &d){
+        this->date = d;
+    }
+
 }

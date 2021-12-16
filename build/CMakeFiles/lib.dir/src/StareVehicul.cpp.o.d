@@ -140,6 +140,7 @@ CMakeFiles/lib.dir/src/StareVehicul.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/_types/_wctrans_t.h \
   /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/./Vehicul.hpp \
   /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/./Proprietar.hpp \
+  /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/./DatePersonale.hpp \
   /Users/dianaudisteanu/Desktop/Vehicul/src/../inc/./Combustibil.hpp \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ios \

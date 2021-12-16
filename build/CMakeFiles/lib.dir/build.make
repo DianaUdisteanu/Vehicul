@@ -181,6 +181,20 @@ CMakeFiles/lib.dir/src/Kerosen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/src/Kerosen.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dianaudisteanu/Desktop/Vehicul/src/Kerosen.cpp -o CMakeFiles/lib.dir/src/Kerosen.cpp.s
 
+CMakeFiles/lib.dir/src/DatePersonale.cpp.o: CMakeFiles/lib.dir/flags.make
+CMakeFiles/lib.dir/src/DatePersonale.cpp.o: ../src/DatePersonale.cpp
+CMakeFiles/lib.dir/src/DatePersonale.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dianaudisteanu/Desktop/Vehicul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/lib.dir/src/DatePersonale.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/src/DatePersonale.cpp.o -MF CMakeFiles/lib.dir/src/DatePersonale.cpp.o.d -o CMakeFiles/lib.dir/src/DatePersonale.cpp.o -c /Users/dianaudisteanu/Desktop/Vehicul/src/DatePersonale.cpp
+
+CMakeFiles/lib.dir/src/DatePersonale.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/src/DatePersonale.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dianaudisteanu/Desktop/Vehicul/src/DatePersonale.cpp > CMakeFiles/lib.dir/src/DatePersonale.cpp.i
+
+CMakeFiles/lib.dir/src/DatePersonale.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/src/DatePersonale.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dianaudisteanu/Desktop/Vehicul/src/DatePersonale.cpp -o CMakeFiles/lib.dir/src/DatePersonale.cpp.s
+
 # Object files for target lib
 lib_OBJECTS = \
 "CMakeFiles/lib.dir/src/Proprietar.cpp.o" \
@@ -190,7 +204,8 @@ lib_OBJECTS = \
 "CMakeFiles/lib.dir/src/StareVehicul.cpp.o" \
 "CMakeFiles/lib.dir/src/Combustibil.cpp.o" \
 "CMakeFiles/lib.dir/src/Carburant.cpp.o" \
-"CMakeFiles/lib.dir/src/Kerosen.cpp.o"
+"CMakeFiles/lib.dir/src/Kerosen.cpp.o" \
+"CMakeFiles/lib.dir/src/DatePersonale.cpp.o"
 
 # External object files for target lib
 lib_EXTERNAL_OBJECTS =
@@ -203,9 +218,10 @@ liblib.a: CMakeFiles/lib.dir/src/StareVehicul.cpp.o
 liblib.a: CMakeFiles/lib.dir/src/Combustibil.cpp.o
 liblib.a: CMakeFiles/lib.dir/src/Carburant.cpp.o
 liblib.a: CMakeFiles/lib.dir/src/Kerosen.cpp.o
+liblib.a: CMakeFiles/lib.dir/src/DatePersonale.cpp.o
 liblib.a: CMakeFiles/lib.dir/build.make
 liblib.a: CMakeFiles/lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dianaudisteanu/Desktop/Vehicul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library liblib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dianaudisteanu/Desktop/Vehicul/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library liblib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lib.dir/link.txt --verbose=$(VERBOSE)
 

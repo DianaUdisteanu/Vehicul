@@ -29,6 +29,7 @@ namespace aerian{
 
     void Aerian::alimenteazaVehicul(){
         std::shared_ptr<combustibil::Combustibil> com (combustibil::Combustibil::incarcaCombustibil('k')); //com pointeaza catre obiectul returnat de incarcaCombustibil
-        std::cout<<"Am alimentat cu "<<com->printCombustibil();
+        std::cout<<"Am alimentat cu "<<com->printCombustibil()<<std::endl;
+        std::cout<<com.get()<<std::endl;
     }
 }

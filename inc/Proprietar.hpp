@@ -2,10 +2,12 @@
 #define PROPRIETAR_HPP
 
 #include<string>
+#include<memory>
+#include "./DatePersonale.hpp"
 namespace proprietar {
 
 class Proprietar {
-    protected:
+    private:
         std::string nume;
         std::string prenume;
         unsigned int varsta;
@@ -14,10 +16,11 @@ class Proprietar {
     public:
         Proprietar();
         Proprietar(const std::string, const std::string, unsigned int, const std::string);
-        Proprietar& operator=(const Proprietar &);
-        // copy assignment operator
+        datepersonale::DatePersonale date;
 
         const std::string printNameOfTheOwner();
+        void adaugaDetalii(datepersonale::DatePersonale &date);
+
 };
 
 }

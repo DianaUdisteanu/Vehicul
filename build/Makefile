@@ -214,6 +214,30 @@ src/Combustibil.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/Combustibil.cpp.s
 .PHONY : src/Combustibil.cpp.s
 
+src/DatePersonale.o: src/DatePersonale.cpp.o
+.PHONY : src/DatePersonale.o
+
+# target to build an object file
+src/DatePersonale.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/DatePersonale.cpp.o
+.PHONY : src/DatePersonale.cpp.o
+
+src/DatePersonale.i: src/DatePersonale.cpp.i
+.PHONY : src/DatePersonale.i
+
+# target to preprocess a source file
+src/DatePersonale.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/DatePersonale.cpp.i
+.PHONY : src/DatePersonale.cpp.i
+
+src/DatePersonale.s: src/DatePersonale.cpp.s
+.PHONY : src/DatePersonale.s
+
+# target to generate assembly for a file
+src/DatePersonale.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/src/DatePersonale.cpp.s
+.PHONY : src/DatePersonale.cpp.s
+
 src/Kerosen.o: src/Kerosen.cpp.o
 .PHONY : src/Kerosen.o
 
@@ -377,6 +401,9 @@ help:
 	@echo "... src/Combustibil.o"
 	@echo "... src/Combustibil.i"
 	@echo "... src/Combustibil.s"
+	@echo "... src/DatePersonale.o"
+	@echo "... src/DatePersonale.i"
+	@echo "... src/DatePersonale.s"
 	@echo "... src/Kerosen.o"
 	@echo "... src/Kerosen.i"
 	@echo "... src/Kerosen.s"
